@@ -76,7 +76,7 @@ class Timer {
 
     stop() {
         clearInterval(this.intervalId);
-        refs.startBtn.removeAttribute("disabled");
+        //refs.startBtn.removeAttribute("disabled");
     }
     
     convertMs(ms) {
